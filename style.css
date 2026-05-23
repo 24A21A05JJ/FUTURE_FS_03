@@ -1,0 +1,157 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#fff5f7;
+}
+
+/* Navbar */
+
+header{
+  background:#ff4d6d;
+  padding:15px;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav h1{
+  color:white;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+
+nav ul li{
+  margin-left:20px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+  height:90vh;
+
+  background-image:url('images/salon2.jpg');
+
+  background-size:cover;
+
+  background-position:center;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  align-items:center;
+
+  color:white;
+
+  text-align:center;
+}
+
+.hero h2{
+  font-size:55px;
+}
+
+.hero p{
+  font-size:25px;
+  margin:20px 0;
+}
+
+.hero button{
+  padding:12px 25px;
+  border:none;
+  background:white;
+  color:#ff4d6d;
+  font-size:18px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* About */
+
+.about{
+  padding:50px;
+  text-align:center;
+}
+
+.about img{
+  width:300px;
+  margin-top:20px;
+  border-radius:10px;
+}
+
+/* Services */
+
+.services{
+  padding:50px;
+  text-align:center;
+}
+
+.service-container{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.service-box{
+  background:white;
+  width:250px;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+
+.gallery{
+  padding:50px;
+  text-align:center;
+}
+
+.gallery-container{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+.gallery-container img{
+  width:300px;
+  border-radius:10px;
+}
+
+/* Contact */
+
+.contact{
+  padding:50px;
+  text-align:center;
+  background:#ffe5ec;
+}
+
+/* Footer */
+
+footer{
+  background:#ff4d6d;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
